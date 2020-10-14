@@ -1,0 +1,695 @@
+@charset "UTF-8";
+
+
+*,*::before,*::after{box-sizing:border-box}ul[class],ol[class]{padding:0}body,h1,h2,h3,h4,p,ul[class],ol[class],figure,blockquote,dl,dd{margin:0}html{scroll-behavior:smooth}body{min-height:100vh;text-rendering:optimizeSpeed;line-height:1.5}ul[class],ol[class]{list-style:none}a:not([class]){text-decoration-skip-ink:auto}img,picture{max-width:100%;display:block}article>*+*{margin-top:1em}input,button,textarea,select{font:inherit}img:not([alt]){filter:blur(10px)}@media(prefers-reduced-motion:reduce){*{animation-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !important;scroll-behavior:auto !important}}
+  
+
+/*基本*/
+body {
+    width: 100%;
+    height:100%;
+    font-family:'Josefin Sans', sans-serif;
+    }
+    
+    ul,li,dl,dt,dd {
+        margin:0;
+        list-style: none;
+      }
+      
+      a { 
+        text-decoration: none;
+       
+      }
+      
+      a:hover { 
+        transition: .3s;
+        cursor: pointer;
+      }
+      
+    /*ヘッダー、メイン*/
+
+
+    .header-inner {
+    max-width: 90%;
+    height:100vh;
+    margin: 50px auto 0px;
+    display: flex;
+    }
+    
+    .main-left {
+        width: 69%;
+        margin-right:-5px;
+    }
+
+    .main-left img {
+        width:100%;
+        height:678px;
+        object-fit: cover;
+        
+    }
+    
+    .main-left h1 {
+        position:absolute;
+        left:16%;
+        bottom:15%;
+        font-size: 80px;
+        font-weight: 100;
+        color:white;
+        font-family:'Josefin Sans', sans-serif;
+        background: url(cafe-image/penki.png) no-repeat;
+    }
+    
+    .main-right {
+        width:31%;
+        height: 678px;
+        object-fit: cover;
+
+    }
+    
+    .light {
+        width: 100%;
+        height:40%;
+    }
+    
+    .grass {
+        width: 100%;
+        height:60%;
+    }
+    
+    .main-right nav {
+        position:fixed;
+        right :6%;
+        top:50px;
+        z-index: 1;
+        
+    }
+    
+    .main-right nav ul li {
+        margin-bottom:20px;
+        font-size:30px;
+    }
+    
+    .main-right nav ul li a {
+        color:#999898;
+    }
+
+    .item-text{
+        position: relative;
+        z-index: 1;
+      }
+      .item-text:after{
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -10px;/*テキストからの距離*/
+        width: 0%;/*初期状態では下線非表示*/
+        height: 2px;/*下線の高さ*/
+        background: #999898;/*下線の色*/
+        z-index: -1;
+        transition: all 0.4s;/*アニメーション速度*/
+      }
+      .item:hover .item-text:after{
+        width: 100%;/*hover時に表示*/
+      }
+
+      .fa-instagram {
+        font-size:30px;
+    }
+
+      
+    /*アバウト*/
+
+
+    
+      html,body,.about{
+        height:90%;
+        margin:0;
+        padding:0;
+    }
+     
+    .about {
+        position: relative;
+        background:url(cafe-image/sukasi.png) no-repeat 0 0/cover;
+       
+    }
+
+
+
+    * {
+        box-sizing:border-box;
+    }
+     
+    .left-box {
+        position:absolute;
+        width:50%;
+        height:100%;
+        padding:1em;
+        left:0;
+    }
+
+    .left-inner {
+        width: 70%;
+        margin:90px auto 0;
+        
+    }
+
+    .left-inner h2 {
+        font-family:'Josefin Sans', sans-serif;
+        color:#877970;
+        font-weight:200;
+        font-size:64px;
+        background: url(cafe-image/ブラシ３.png) no-repeat -150px 10px;
+            
+    }
+    
+    .left-inner p {
+        display: inline-block;
+        line-height: 3.8;
+        color:#877970;
+        font-size: 16px;
+        font-weight: 100;
+        font-family:'Noto Serif JP', serif;
+        
+    }
+
+    .left-inner p .moremore {
+        margin-top:40px;
+    }
+     
+    
+    .right-box {
+        position:absolute;
+        width:50%;
+        height:100%;
+        padding:1em;
+        right:0;
+        overflow-y:scroll;
+        
+        
+    }
+    .scroll {
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    top: 50px;
+    z-index: 2;
+    padding: 10px 10px 110px;
+    overflow: hidden;
+    color: #8387a5;
+    font-size: 14px;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 1;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    writing-mode: vertical-lr;
+  }
+
+  .scroll::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 1px;
+    height: 100px;
+    background: #8387a5;
+    animation: sdl 1.5s cubic-bezier(1, 0, 0, 1) infinite;
+  }
+  @keyframes sdl {
+    0% {
+      transform: scale(1, 0);
+      transform-origin: 0 0;
+    }
+    50% {
+      transform: scale(1, 1);
+      transform-origin: 0 0;
+    }
+    50.1% {
+      transform: scale(1, 1);
+      transform-origin: 0 100%;
+    }
+    100% {
+      transform: scale(1, 0);
+      transform-origin: 0 100%;
+    }
+  }
+
+
+
+  
+    .right-inner img {
+        width:80%;
+        object-fit: cover;
+        display:inline-block;
+        margin:10%;
+    }
+    
+
+    /*メニュー*/
+
+    .menu {
+        background-color:#c9c6b8;
+        padding:30px 0 ;
+    }
+    .menu h2 {
+       margin-left:170px;
+       font-family: 'Josefin Sans', sans-serif;
+       font-size:64px;
+       font-weight:200;
+       color: #73758e;
+       background: url(cafe-image/ブラシ２.png) no-repeat -5px 10px;
+        }
+    
+    
+    .menu-inner {
+        max-width: 76%;
+        margin: 50px auto;
+        display: flex;
+        justify-content: space-between;
+        }
+    
+    .menu-contents {
+      width:25%;
+      
+    }
+    .menu-img {
+        width:100%;
+        object-fit: cover;
+        margin-bottom: 20px;
+    }
+    
+    
+    .title {
+        font-size:32px;
+        font-weight:100;
+        font-family:'Noto Serif JP', serif;
+        color:#8387a5;
+        letter-spacing: 3px;
+        border-bottom: #8c7d71 1px solid;
+
+    }
+    
+    
+    .menu-contents p{
+        font-family:'Noto Serif JP', serif;
+        font-size:12px;
+        color:#8c7d71;
+        margin-top: 10px;
+        line-height: 1.9;
+    }
+    .more-btn {
+        width:100px;
+        margin: 0 auto;
+        margin-bottom:50px;
+    }
+　　　
+    /*背景*/
+    body,html {
+        height: 100%;
+    }
+    .parallax-bg {
+       
+        width:100%;
+        height:60%;
+        background-image: url('cafe-image/book.jpg');
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+
+      /*ブログ*/
+
+      
+    .blog {
+        width:100%;
+        background-color:#fbf9ef;
+    }
+    
+    .blog-inner {
+        width:71%;
+        margin:0 auto;
+        padding-top:70px;
+        
+    }
+    
+    .line {
+        font-family: 'Josefin Sans', sans-serif;
+       font-size:60px;
+       font-weight:200;
+       margin:0 0 10px 0;
+       padding-left:20px;
+       color:#8c7d71;
+       background: url(cafe-image/ブラシ２.png) no-repeat;
+    }
+    
+
+    .article {
+        display:flex;
+        justify-content:space-around;
+    }
+
+    .blog-contents { 
+        background-color:#fff;
+        border-radius: 0 0 30px 30px;
+        width:28%;
+        height:280px;
+        margin-right:15px;
+        box-shadow: 1px 3px 8px 2px rgba(128, 124, 91, 0.5);
+    }
+    
+   
+    
+    .blog-contents img {
+        width:100%;
+        height:170px;
+        object-fit: cover;
+        opacity: 1;
+        transition: .3s ease-in-out;
+    }
+
+    .blog-contents:hover  {
+     opacity: .6;
+     transition: .3s ease-in-out;
+     cursor: pointer;
+      }
+      
+    .text-box {
+        width:85%;
+        margin:20px auto 20px;
+    
+    }
+    .text-box h3 {
+        font-size: 24px;
+        color:#808080;
+    }
+    .text{
+        color:#73758e;
+        font-size:14px;
+    }
+    
+    .date {
+        font-size: 10px;
+        color:#c0c0c0;
+        text-align: right;
+    }
+    
+    .next-wrapper {
+        line-height: 350px;
+    }
+    .next {
+        background: #fbf9ef;
+        border-radius: 15%;
+        box-shadow: 9.91px 9.91px 15px #E4E3D9, -9.91px -9.91px 15px #ffffff;
+        width:50px;
+        height:50px;
+        display: inline-block;
+        text-align:center;
+        line-height: 55px;
+        font-size:24px;
+        font-weight:400;
+        color:#808080;
+    }
+
+   
+    .next:hover {
+        opacity: 0.6;
+    }
+
+    /*アクセス*/
+    .map {
+        display: flex;
+        margin-top: 70px;
+        padding-bottom: 90px;
+       
+    }
+    
+    .box {
+        width:30%;
+    }
+    .box p {
+        color:#8c7d71;
+        font-size:12px;
+        margin-left:20px;
+    }
+    
+    .google-map {
+        width:60%;
+        margin-left:10%;
+    }
+    .map2 {
+        display: none;
+    }
+
+    /*フッター*/
+
+    footer {
+        width:100%;
+        height:150px;
+        background-color:#545466;
+    }
+
+    .footer-contents {
+        width:80%;
+        height:100%;
+        margin: 0 auto;
+        padding:60px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer-contents h2 {
+        color: #fff;
+        font-size: 32px;
+    }
+
+    .footer-contents a:hover{
+        opacity: .6;
+        
+    }
+
+
+    .icon {
+        color:#fff;
+        font-size: 25px;
+        padding-right:10px;
+    }
+
+
+/*ボタンアニメーション*/
+    *,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%;/*rem算出をしやすくするために*/
+}
+
+.btn,
+a.btn,
+button.btn {
+  font-size: 2.0rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+}
+
+
+
+  a.btn-border {
+    border-radius: 0;
+    color:#8c7d71;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  a.btn-border:before,
+  a.btn-border:after {
+    position: absolute;
+  
+    width: 100%;
+    height: 2px;
+  
+    content: '';
+    -webkit-transition: all .3s;
+    transition: all .3s;
+  
+    background: #8c7d71;
+  }
+  
+  a.btn-border:before {
+    top: 0;
+    left: 0;
+  }
+  
+  a.btn-border:after {
+    right: 0;
+    bottom: 0;
+  }
+  
+  a.btn-border:hover:before,
+  a.btn-border:hover:after {
+    width: 0;
+  }
+  
+/*フェードイン*/
+
+  
+
+  .fade-in-bottom {
+    opacity: 0;
+    animation-name: fadein-bottom;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+ }
+ @keyframes fadein-bottom {
+    0% {
+       opacity: 0;
+       transform: translateY(20px);
+    }
+    100% {
+       opacity: 1;
+       transform: translateY(0);
+    }
+ }
+
+
+
+ @media (max-width:900px) { 
+
+    .about {
+        width: 100%;
+        height:auto;
+        background-color:#fff;
+    }
+    .left-box {
+        width:100%;
+        height:auto;
+        padding:1em;
+        background: url(cafe-image/sikashi.png) no-repeat;
+        position:unset;
+    }
+
+    .right-box {
+        width:100%;
+        height:auto;
+        position: unset;
+    }
+
+    .menu {
+        background-color:#fbf9ef;
+        padding:30px 0 ;
+        width:100% ;
+    }
+    .menu h2 {
+       font-family: 'Josefin Sans', sans-serif;
+       font-size:64px;
+       font-weight:200;
+       color: #73758e;
+       background: url(cafe-image/ブラシ２.png) no-repeat -5px 10px;
+        }
+    
+    
+    .menu-inner {
+        flex-direction: column;
+        align-items: center;
+        width:70%;
+    }
+    
+    .menu-contents {
+      width:70%;
+      margin:0 auto 100px;
+      
+    }
+    
+    
+    .menu-img {
+        width:100%;
+        background: url(cafe-image/coffee.jpg) no-repeat/cover;
+        margin-bottom: 50px;
+    }
+    
+  
+    .title {
+        font-size:48px;
+    }
+
+    .menu-contents p{
+        font-size:16px;  
+    }
+
+    .more-btn {
+        width:200px;
+        margin: 0 auto;
+        margin-bottom:50px;
+    }
+
+    .article{
+        flex-direction: column;
+        align-items: center;
+    }
+    .blog-contents { 
+        background-color:#fff;
+        border-radius: 0 0 30px 30px;
+        width:70%;
+        height:400px;
+        margin-bottom:30px;
+        box-shadow: 1px 3px 8px 2px rgba(128, 124, 91, 0.5);
+    }
+
+    .blog-contents img {
+        height:300px;
+    }
+
+
+    .next-wrapper {
+        line-height: 1;
+        margin-left:250px;
+    }
+
+
+    .map {
+        padding-bottom: 90px;
+        flex-direction: column;
+    }
+    
+    .box {
+        width:100%;
+    }
+    .box p {
+        
+        font-size:14px;
+        
+    }
+    
+    .map1 {
+        display: none;
+    }
+    .map2 {
+        display: unset;
+        padding-right:20px;
+        margin-top:20px;
+    }
+    
+}
