@@ -289,26 +289,20 @@ body {
 
 /*works*/
 
-.works-table {
-    display: flex;
-    justify-content: space-around;
-    margin:30px auto;
+.grid {
+    display: grid;
+    gap:5%;
+    grid-template-columns: repeat(auto-fit,minmax(260px,1fr));
+    margin:50px auto;
     width:85%;
 } 
 
-.item {
-    width:30%;
-    margin-bottom:30px;
-    opacity: 1;
-}
 
 
  .w-img {
-      width:100%;
+      
       margin-bottom:7%;
-      object-fit: cover;
       box-shadow: 0 2px 4px rgba(3,3,3,.09);
-      display: block;
   }
 
   
@@ -321,7 +315,6 @@ body {
   .item:hover .w-img{
     transition: 0.3s;
     opacity: .7;
-    display: block;
     box-shadow: 0 8px 12px rgba(0,0,0,.12);
     margin-top:-5px;
     
@@ -407,22 +400,8 @@ body {
         margin: 0 15%;
         padding: 6% 0;
     }
-    .works-table {
-        display: unset;
-        margin:20% auto;
-        width:80%;
-    
-    } 
-    
-    .item {
-        width:80%;
-        margin-bottom:30px;
-        opacity: 1;
-    }
     
     
-     .w-img {
-        margin: 10%;
       }
     
       .w-text {
