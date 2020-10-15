@@ -16,15 +16,15 @@ body {
     }
     
 .works01 {
-    background:url(portphoto/works01-bg.png) center/cover;
+    background:url(works01-bg.png) center/cover;
 }
 
 .works02 {
-    background:url(portphoto/works02-bg.png) center/cover;
+    background:url(works02-bg.png) center/cover;
 }
 
 .works03 {
-    background:url(portphoto/works03-bg.png) center/cover;
+    background:url(works03-bg.png) center/cover;
 }
 
 .works04 {
@@ -32,11 +32,11 @@ body {
 }
 
 .works05 {
-    background:url(portphoto/works05-bg.png) center/cover;
+    background:url(works05-bg.png) center/cover;
 }
 
 .works06 {
-    background:url(portphoto/works06-bg.png) center/cover;
+    background:url(works06-bg.png) center/cover;
 }
     ul,li,dl,dt,dd {
        
@@ -206,7 +206,7 @@ body {
     color:#867e52;
     letter-spacing: 10px;
     font-style: italic;
-    background:url(portphoto/t-bg.png) no-repeat;
+    background:url(t-bg.png) no-repeat;
     padding:15px;
     margin-left:15%;
     margin-top:100px;
@@ -259,7 +259,7 @@ body {
 
 .tracebg {
     background-color:rgba(255, 255, 255, 0.55);
-    background-image:url(portphoto/画像\ 31.png);
+    background-image:url(画像\ 31.png);
 }
 
 
@@ -308,7 +308,7 @@ body {
     margin-left:20px;
     padding-left:30px;
     font-weight:400;
-    background: url(portphoto/link.png)no-repeat 0px -20px/35%;
+    background: url(link.png)no-repeat 0px -20px/35%;
 }
 
 #port01 .c-right img {
@@ -357,7 +357,7 @@ body {
     color:#867e52;
     letter-spacing: 10px;
     font-style: italic;
-    background:url(portphoto/t-bg.png) no-repeat;
+    background:url(t-bg.png) no-repeat;
     padding:15px;
 }
 
@@ -403,7 +403,7 @@ body {
 
 footer {
     width:100%;
-    background: url(portphoto/フッター背景.png) no-repeat;
+    background: url(フッター背景.png) no-repeat;
 }
 
 
@@ -442,7 +442,7 @@ footer {
 
 
 .icon h1 {
-    background: url(portphoto/square.png) no-repeat center top/contain;
+    background: url(square.png) no-repeat center top/contain;
     margin-top:80px;
     width:100%;
     height:50%;
@@ -465,7 +465,7 @@ footer {
 
 .hotelbg {
     background-color: rgba(113, 142, 91, 0.3);
-    background-image: url(portphoto/画像\ 31.png);
+    background-image: url(画像\ 31.png);
 }
 
 .c-left {
@@ -511,7 +511,7 @@ footer {
 
 .an-bg {
     background-color:rgba(226, 200, 194, 0.8);
-    background-image: url(portphoto/画像\ 31.png);
+    background-image: url(画像\ 31.png);
 }
 .an-right {
     width:50%;
@@ -666,22 +666,22 @@ color:#867e52;
   }
 
   #apple {
-      background:url(portphoto/applemusic.png) no-repeat center/70%;
+      background:url(applemusic.png) no-repeat center/70%;
      
   }
 
   #spo {
-    background:url(portphoto/spotify.png)no-repeat center/60%;
+    background:url(spotify.png)no-repeat center/60%;
   
 }
 
 #line {
-    background:url(portphoto/linemusic.png)no-repeat center/75%;
+    background:url(linemusic.png)no-repeat center/75%;
    
 }
 
 #amazon {
-    background:url(portphoto/amazon.png)no-repeat center/60%;
+    background:url(amazon.png)no-repeat center/60%;
     
 }
 
@@ -864,7 +864,7 @@ ul.p-text li {
     width:55%;
     margin:50px auto 0;
     background-color: rgba(237, 196, 170, 0.8);
-    background-image: url(portphoto/colorbg.png);
+    background-image: url(colorbg.png);
     padding:5% 3% 0 15%;
 }
 
@@ -890,13 +890,13 @@ ul.p-text li {
 
 .adlbg {
     background-color: rgba(59, 165, 170, 0.3);
-    background-image: url(portphoto/画像\ 31.png);
+    background-image: url(画像\ 31.png);
 }
 
 
 .adl2-bg {
     background-color: rgba(211, 167, 115, 0.8);
-    background-image: url(portphoto/画像\ 31.png);
+    background-image: url(画像\ 31.png);
 }
 
 
@@ -917,12 +917,12 @@ ul.p-text li {
 
 .cafebg {
     background-color: rgba(106, 133, 163, 0.5);
-    background-image:url(portphoto/画像\ 31.png);
+    background-image:url(画像\ 31.png);
 }
 
 .anac-bg {
     background-color: rgba(217, 212, 190, 0.6);
-    background-image:url(portphoto/画像\ 31.png);
+    background-image:url(画像\ 31.png);
 }
 
 
