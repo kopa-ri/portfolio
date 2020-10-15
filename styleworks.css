@@ -296,7 +296,7 @@ body {
 }
 
 /*コンセプト*/
-#port01,b1 {
+#port01,.b1 {
     line-height: 2.4;
 }
 #port01 span {
@@ -324,7 +324,7 @@ body {
     
 }
 
-#port01 li p,b1 p{
+#port01 li p,.b1 p{
     font-size:0.875rem;
 }
 
@@ -341,9 +341,7 @@ body {
 }
 
 .b1 {
-  margin-bottom:50px;
-  margin-top:50px;
- 
+  margin:50px 0;
 }
 
 .b1 span {
