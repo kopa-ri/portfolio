@@ -328,6 +328,19 @@ body {
     object-fit: cover;
 }
 
+
+.target {
+line-height:2;
+  
+.shift {
+    margin: 12% 0 12% 15%;
+}
+
+
+.c-right img {
+    margin-bottom:30px;
+}
+
 #port01 li {
     margin-bottom:20px;
     
