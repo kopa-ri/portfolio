@@ -311,6 +311,17 @@ body {
     background: url(link.png)no-repeat 0px -20px/35%;
 }
 
+.c-left {
+    width:60%;
+    padding:0 5%;
+    line-height:1.8;
+}
+
+.c-right {
+    width:40%;
+    padding:0 5%;
+}
+
 #port01 .c-right img {
     margin-top:200px;
     width:100%;
@@ -468,11 +479,6 @@ footer {
     background-image: url(画像\ 31.png);
 }
 
-.c-left {
-    width:60%;
-    padding:0 5%;
-    line-hieght:1.8;
-}
 
 .target {
 line-height:2;
@@ -481,10 +487,6 @@ line-height:2;
     margin: 12% 0 12% 15%;
 }
 
-.c-right {
-    width:40%;
-    padding:0 5%;
-}
 
 .c-right img {
     margin-bottom:30px;
