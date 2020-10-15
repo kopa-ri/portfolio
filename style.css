@@ -9,7 +9,7 @@ body {
     width: 100%;
     height:100%;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background:url(portphoto/port-all.png) no-repeat center/cover;
+    background:url(port-all.png) no-repeat center/cover;
     color:#645C51;
     letter-spacing: 3px;
     font-weight:400;
@@ -150,7 +150,7 @@ body {
     /*title*/ 
 
       .top-inner {
-          background: url(portphoto/topimage.png) no-repeat center/65%;
+          background: url(topimage.png) no-repeat center/65%;
           position: relative;
 
       }
@@ -169,7 +169,7 @@ body {
     letter-spacing: 13px;
     text-align: center;
     line-height: 1.2;
-    background: url(portphoto/square.png) no-repeat center top/contain;
+    background: url(square.png) no-repeat center top/contain;
     width:100%;
     padding:12%;
 }
@@ -210,7 +210,7 @@ body {
    .text {
         width:75%;
         margin:0 auto;
-        background: url(portphoto/shape01.png) no-repeat right top/100%;
+        background: url(shape01.png) no-repeat right top/100%;
     }
 
     .high {
@@ -329,7 +329,7 @@ body {
 
   footer {
       width:100%;
-      background: url(portphoto/フッター背景.png) no-repeat;
+      background: url(フッター背景.png) no-repeat;
   }
 
 
@@ -359,7 +359,7 @@ body {
 }
 
 .icon h1 {
-    background: url(portphoto/square.png) no-repeat center top/contain;
+    background: url(square.png) no-repeat center top/contain;
     margin-top:80px;
     width:100%;
     height:50%;
