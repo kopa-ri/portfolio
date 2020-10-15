@@ -357,24 +357,19 @@ body {
     padding:15px;
 }
 
-.works-table {
-    display: flex;
-    justify-content: space-around;
+.grid {
+    display: grid;
+    gap:5%;
+    grid-template-columns: repeat(auto-fit,minmax(258px,1fr));
     margin:30px auto;
     width:80%;
-} 
-
-.item {
-    width:28%;
-    opacity: 1;
 }
 
+
+
  .w-img {
-      width:100%;
       margin-bottom:6%;
-      object-fit: cover;
       box-shadow: 0 2px 4px rgba(3,3,3,.09);
-      display: block;
   }
 
   .w-text {
@@ -955,11 +950,7 @@ ul.p-text li {
     width:100%;
   }
 
-  .item {
-    width:60%;
-    margin:30px auto;
-    opacity: 1;
-}
+  
 
   .w-text {
     font-size:1.2rem;
