@@ -440,21 +440,18 @@ body {
         
     }
 
-
-    .n-inner {
-        width: 70%;
-        height: 100%;
-        margin: 0 15%;
-        padding: 6% 0;
-    }
-    
-    
+  .grid {
+      gap:1%;
+      margin:80px auto;
+      width:60%;
+  } 
+  
+  
+  
+   .w-img {
+        margin-bottom:4%;
       
-    
-      .w-text {
-        color:#867e52;
-        margin-left:12%;
-      }
+  }
       
         .right img {
             width:100%;
