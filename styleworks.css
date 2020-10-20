@@ -933,10 +933,16 @@ ul.p-text li {
     width:100%;
   }
 
-  
+  .grid {
+    gap:1%;
+    margin:80px auto;
+    width:60%;
+}
 
-  .w-text {
-    font-size:1.2rem;
+
+ .w-img {
+      margin-bottom:4%;
+      
   }
 
   .left {
