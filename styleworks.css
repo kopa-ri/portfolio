@@ -303,7 +303,7 @@ body {
 /*コンセプト*/
 
 .l-left {
-    width:45%;
+    width:50%;
     padding-left:5%;
 }
 
@@ -335,7 +335,7 @@ body {
     font-size:0.875rem;
 }
 .l-right {
-    width:55%;
+    width:50%;
     padding: 3% 0 0 5%;
 }
 
@@ -1047,7 +1047,7 @@ ul.p-text li {
 
 @media screen and (max-width: 896px) {
   html {
-      font-size:14px;
+      font-size:0.875rem;
   }
 
   #port01 .c-right img{
@@ -1076,7 +1076,7 @@ ul.p-text li {
 
 
   .left img {
-      width:70%;
+      width:80%;
      
   }
   /*WORKS2*/
@@ -1188,3 +1188,128 @@ td {
     display:none;
 }
 }
+
+@media screen and (max-width: 480px) {
+
+     /*works01*/
+    html {
+      width:100%;
+      font-size:0.75rem;
+  }
+
+
+    .main-image nav  {
+      display: none;
+    }
+    
+    .works-heading {
+        margin-top: 50px;
+        margin-left:10%;
+    }
+
+    .i-text h2 {
+        margin-bottom:20px;
+    }
+
+    #port01 .d-inner,#port02 .d-inner,#share .d-inner,.a-graph,.consept-3
+    ,#play .d-inner{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .l-left,.l-right,.b1 {
+        width:100%;
+    }
+
+    .b1 {
+        margin-bottom:50px;
+        margin-left:0;
+    }
+   
+    #port03 .n-inner{
+        width:75%;
+    }
+    .grid {
+        width:85%;
+    }
+
+    .f-nav {
+        line-height: 100px;
+      }
+      
+      .f-item {
+        font-size: 0.875rem;
+        margin-right: 20px;
+        
+      }
+      
+      .icon h1 {
+        margin-top: 25px;
+        padding-top: 8px;
+        font-size: 0.835rem;
+        letter-spacing: 0.6rem;
+      }
+      
+      /*works02*/
+
+      .left a {
+          margin-left:5%;
+      }
+
+      .c-left {
+          padding:0;
+      }
+
+      .c-right, .a-right,.a-left{
+        width: 90%;
+}
+     .an-left,.an-right,.a-left {
+         margin:0;
+     }
+
+     #user .n-inner {
+         margin:0 10%;
+     }
+
+   
+     .g-contents {
+         width:85%;
+         border: none;
+     }
+     .g-contents img,#user .n-inner p, .badlist li{
+         margin:0 0 15px 0;
+     }
+
+     #conflict div {
+         margin:10px auto;
+         width:85%;
+     }
+     
+     td,th {
+         padding:3px;
+         font-size: 0.5rem
+     }
+
+     .p-image {
+         display: none;
+     }
+
+     .r-result {
+         width:80%;
+     }
+
+     .c-contents {
+         width:85%;
+     }
+     .c-contents img {
+         width:30%;
+     }
+     .consept-3 {
+         margin-top:0;
+     }
+
+     .idea-text,.idea-img {
+         width:85%;
+         margin-top:20px;
+     }
+    }
