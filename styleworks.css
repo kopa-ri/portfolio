@@ -962,17 +962,29 @@ ul.p-text li {
     margin:50px auto 0;
     background-color: rgba(237, 196, 170, 0.8);
     background-image: url(colorbg.png);
-    padding:5% 3% 0 15%;
+    padding:3% 3% 3% 15%;
 }
 
 .i-con {
-    display: flex;
-    margin-bottom:30px;
+    margin-bottom:15px;
 }
+
+
+.i-con h3 {
+    font-size:1.125rem;
+    font-weight: 100;
+    margin-bottom:10px;
+}
+
+.i-con p {
+    font-size:0.835rem;
+    margin-left:7%;
+}
+
+
 .i-con i {
     font-size:2rem;
     color:#fff;
-    margin-right:25px;
 }
 
 
