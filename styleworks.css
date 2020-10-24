@@ -12,7 +12,8 @@ body {
     background:url(portphoto/bggound.png) right bottom;
     margin:0;
     font-weight:400;
-    color:#645C51;
+    color:#6F5C47;
+    line-height:1.8;
     }
     
 .works01 {
@@ -71,7 +72,7 @@ body {
     }
 
     h3 {
-        font-size: 1.125rem;
+         font-size: 1.2rem;
         font-weight:600;
         letter-spacing: 2px;
         margin-bottom:10px;
@@ -80,16 +81,26 @@ body {
     
     p {
         font-size: 1rem;
-        letter-spacing: 2px;
+        letter-spacing: 1px;
+        margin-bottom:10px;
     }
 
     .w-title {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         color:#BC881F;
         font-weight:600;
         letter-spacing: 3px;
         margin-bottom:10px;
     }
+
+.line {
+        border-bottom:1px solid #CE915C;
+        padding-bottom:5px;
+    }
+     i {
+         margin-right:10px;
+     }
+
 
 /*トップ*/
  .main-image nav {
@@ -185,11 +196,11 @@ body {
 
 
 .works-heading {
-    font-size:2.375rem;
+    font-size:2.8rem;
     color:#867e52;
     letter-spacing: 10px;
     font-style: italic;
-    background:url(t-bg.png) no-repeat;
+    background:url(t-bg.png) no-repeat left top;
     padding:15px;
     margin-left:15%;
     margin-top:100px;
@@ -203,7 +214,7 @@ body {
 .left a {
     margin:5% 0 0 75%;
     display:inline-block;
-    color:#d3bd60;
+    color:#6F5C47;
     font-size:1.375rem;
     position: relative;
 }
@@ -247,36 +258,52 @@ body {
 
 
 .i-text h2 {
-    margin-bottom:10px;
+    margin-bottom:40px;
     font-size:2rem;
-    color:#8E8971;
     font-style: italic;
-    letter-spacing: 10px;
-    font-weight: 500;
+    letter-spacing: 5px;
+    border-bottom: 1px dashed #9F6327;
+    padding-bottom:7px;
 }
 
 
-.i-text h3,.i-text span {
-    font-size:1rem;
-    font-weight:200;
+.i-text h3 {
+    font-size:1.1rem;
+    margin-bottom:10px;
+    display: inline-block;
+    font-weight: 200;
+    margin-left:5%;
 }
 
 .i-text i {
-    font-size:1.5rem;
+    opacity: .7;
+    font-size: 1.2rem;
+    color: #9F6327;
 }
 
 .i-text p {
+    margin-bottom:15px;
+    margin-left:5%;
+}
+
+.intention {
     font-size:0.875rem;
-    line-height:2.0;
+    margin-left:10%;
 }
 
 /*works01*/
 
 .portbg {
     background-color:#CE915C;
+    background-image:url(portphoto/画像\ 31.png);
 }
 
 /*コンセプト*/
+
+.l-left {
+    width:45%;
+    padding-left:5%;
+}
 
 #port01 span {
   font-weight:600;
@@ -299,45 +326,112 @@ body {
 }
 
 #port01 li {
-    margin-bottom:20px;
-    line-height: 2.4;
-    
+    margin-bottom:40px; 
 }
 
 #port01 li p,.b1 p {
     font-size:0.875rem;
 }
+.l-right {
+    width:55%;
+    padding: 3% 0 0 5%;
+}
 
 /*工夫点*/
 
-#port02 .n-inner {
+.w-title02{
     margin-left:15%;
-    width:70%;
+}
+#port02 .d-inner {
+    padding-top:3%
 }
 
 
-#port02 .n-inner h3 {
-  font-size:1.375rem;
-}
+#port02 .d-inner h3 {
+        position: relative;
+        line-height: 1.4;
+        padding:0.5em 1em;
+        display: inline-block;
+        margin-bottom:20px;
+      }
+      
+#port02 .d-inner h3:before,#port02 .d-inner h3:after { 
+        content:'';
+        width: 20px;
+        height: 30px;
+        position: absolute;
+        display: inline-block;
+      }
+      
+ #port02 .d-inner h3:before {
+        border-left: solid 1px #F0EBE3;
+        border-top: solid 1px #F0EBE3;
+        top:0;
+        left: 0;
+      }
+      
+#port02 .d-inner h3:after {
+        border-right: solid 1px #F0EBE3;
+        border-bottom: solid 1px #F0EBE3;
+        bottom:0;
+        right: 0;
+      }
 
-.b1 {
-  margin-bottom:50px;
-  margin-top:50px;
-  line-height: 2.4;
- 
-}
+ .b1 {
+    width:50%;
+    margin-left:6%;
+    background: radial-gradient(circle, rgba(224,212,189,0.7) 0%, rgba(209,181,165,0.7) 100%);
+    padding:5% 5% 3% 5%;
+    line-height:1.8;
+    position: relative;
+    box-shadow: 0 2px 2px #ccc; /* 影 */
+    }
+
+   .b1::before {
+    position: absolute;
+    top: -1.5em;
+    left: 35%;
+    height: 40px;
+    width: 160px; /*テープの幅*/
+    content: "";
+    border: 1px solid #ccc; /*枠太さ・色*/
+    background-color: #d3bd60; /*テープ色*/
+    opacity: 0.3; /*テープ透明度0～1*/
+    transform: rotate( -5deg ); /*テープ角度*/
+   }
+
+   .b1 span {
+       font-size:1rem;
+   }
+   .b1 p,.b2 p {
+       margin-bottom:20px;
+   }
+  #port03 .n-inner {
+       width:60%;
+       margin:0 auto;
+   }
+   .b2 p {
+       line-height:2;
+   }
+
+   .b2 h3 {
+       border-bottom:1px dashed #d3bd60;
+       padding-bottom:5px;
+   }
 
 
 /*otherWORKS*/
 
 
 .works h2 {
-    font-size:2.375rem;
+    font-size:2.5rem;
     color:#867e52;
     letter-spacing: 10px;
     font-style: italic;
-    background:url(t-bg.png) no-repeat;
+    background:url(portphoto/t-bg.png) no-repeat left top;
     padding:15px;
+    margin-left:5%;
+
 }
 
 .grid {
@@ -445,12 +539,6 @@ footer {
 .c-left {
     width:60%;
     padding:0 5%;
-    line-height:1.8;
-   
-}
-
-.target {
-    line-height: 2;
 }
 
 .shift {
@@ -468,28 +556,34 @@ footer {
 
 /*分析*/
 
+#analysis i,#cafe2 i {
+    font-size:1.25rem;
+    color:#CE915C;
+}
 .an-inner {
     margin-right:10%;
     height:90%;
     display: flex;
-    line-height: 1.8;
+}
+
+.an-inner p {
+    font-size:0.875rem;
 }
 
 .an-left {
-    width:45%;
-    margin-right:5%;
+     width:50%;
     padding:5% 2% 2% 15%;
 }
 
-
-.ol01 h3,.an-left h3 {
-    font-size:1rem;
-    font-weight:600;
+.an-bg .kama-text {
+    font-size:0.835rem;
+    margin-bottom:30px
 }
 
-
-.ol01 li {
-    margin-top:20px;
+.an-acsent {
+    font-size:1.25rem;
+    font-weight:200;
+   
 }
 .an-bg {
     background-color:rgba(226, 200, 194, 0.8);
@@ -497,23 +591,16 @@ footer {
 }
 
 .an-bg p {
-    margin:30px 0;
+  margin-bottom:20px;
+  margin-left:5%;
 }
 
 .an-right {
-    width:50%;
+    width:45%;
     border-left:1px solid #5d5b5b;
     padding:3%;
-    margin-top:30px;
+    margin:70px 0 30px;
 }
-
-
-.an-right-h {
-    width:50%;
-    border-left:1px solid #5d5b5b;
-    padding:3%;
-}
-
 
 .friend {
     display: flex;
@@ -522,18 +609,19 @@ footer {
 }
 
 .friend p {
-    width:48%;
+  border-left:2px solid #a8a882;
+  width:48%;
+  padding:2%;
 }
 
- .ol01 span {
+ .an-inner span {
 font-weight:600;
-color:#867e52;
-
+font-size:1rem;
 }
 
-.line {
-    border-bottom: #6A6464 1px solid;
-    
+p.ver2 span{
+margin-bottom:15px;
+display: inline-block;
 }
 
 
@@ -550,14 +638,6 @@ color:#867e52;
     width:100%;
     padding:10% 20% 8% 10%;
 }
-.app-title {
-    font-size: 1.5rem;
-    color:#AAA088;
-    font-weight:600;
-    letter-spacing: 3px;
-    margin-bottom:20px;
-}
-
 
 .app-left img {
     width:80%;
@@ -573,10 +653,7 @@ color:#867e52;
 }
 
 .a-left p {
-    font-size:1rem;
     line-height: 2.5;
-    border-top:1px solid #5C5C5C;
-    padding-top:20px;
 }
 
 .a-right {
@@ -584,13 +661,20 @@ color:#867e52;
 }
 
 /*ユーザーリサーチ*/
+#user .n-inner {
+    margin:0 10% 0 15%;
+}
 
 #user .n-inner h3 {
     font-size:1.125rem;
     font-weight:300;
 }
 
-.user .n-inner p,.badlist li {
+#user .n-inner span {
+    font-size:0.835rem;
+}
+
+#user .n-inner p,.badlist li {
     margin:20px 0;
 }
 
@@ -599,15 +683,20 @@ color:#867e52;
       justify-content: space-around;
       width:100%;
       font-weight:200;
+      margin-top: 40px;
 }
 
 
 
 .g-contents {
-      width:33%;
+      width:30%;
       padding:2%;
       border-right:1px solid #707070;
 
+  }
+
+.center {
+      width:40%;
   }
 
   .g-contents:last-child {
@@ -616,18 +705,26 @@ color:#867e52;
 
 
   .g-contents img {
-      margin:30px 0 50px;
-  } 
+     margin:40px auto;
+}
 
-  
   .g-inner {
       display: flex;
      
   }
   .g-inner li {
-    padding:0 2% 2% 2%;
+   padding:0 2%;
   }
 
+.g-inner img {
+      width:80%;
+      margin:40px auto;
+  }
+
+.badlist {
+      font-weight:600;
+      margin:30px 0;
+  }
 
   /*map*/
   .con-left{
@@ -676,7 +773,21 @@ color:#867e52;
 .con-right {
     width:40%;
     margin:15% 0 0 5%;
-    line-height: 2.0;
+}
+
+.h3-reserch {
+    margin-bottom:20px;
+}
+
+.p-reserch {
+    font-size:0.875rem;
+    line-height:2;
+    margin-bottom:10px;
+}
+
+.p-reserch span {
+    font-size:1rem;
+    font-weight:600;
 }
 
 .p-inner {
@@ -692,9 +803,8 @@ color:#867e52;
     font-size:0.75rem;
     width:60%;
     padding:0 3%;
-    line-height: 2.0;
-}
 
+}
 
 ul.p-text li {
     margin-bottom:10px;
@@ -708,6 +818,10 @@ ul.p-text li {
     display: flex;
 }
 
+.j-left,#consept .app-title,.consept-3,.idea-text {
+    margin-left:5%;
+}
+
 
 .j-right {
     width:35%;
@@ -716,30 +830,19 @@ ul.p-text li {
 }
 
 
-.j-right h3 {
-    font-weight:600;
-    border-bottom:1px solid #645C51;
-    margin-bottom:20px;
-}
-
-.j-right p {
-    font-size:0.875rem;
-    letter-spacing: 3px;
-    line-height: 2.0;
-}
-
-
   /*結果*/
 
 #result p {
     font-size:0.875rem;
-    line-height:2.4;
-
+    margin-bottom:20px;
 }
 
 .r-result {
-    width:65%;
-    margin:0 auto;
+  width:55%;
+  margin:0 auto;
+  border-radius: 30px;
+  padding:4%;
+  background-image: url(portphoto/inner-child.png);
 }
    
 
@@ -756,6 +859,7 @@ ul.p-text li {
     text-align: center;
     margin-bottom:20px;
 }
+
 .c-title h3 {
     font-size:2rem;
     font-weight:300;
@@ -819,13 +923,20 @@ ul.p-text li {
 }
 
 .i-heading {
-    font-size:1.5rem ;
+    font-size:1.2rem ;
+    margin-bottom:20px;
 }
 
 .idea-text ul li {
     font-size:1rem;
     font-weight:200;
     margin-bottom:20px;
+    margin-left:5%;
+}
+
+.idea-text i {
+    color:#CE915C;
+    font-size:1.8rem;
 }
 
 .a-inner {
@@ -859,7 +970,7 @@ ul.p-text li {
     margin-bottom:30px;
 }
 .i-con i {
-    font-size:36px;
+    font-size:2rem;
     color:#fff;
     margin-right:25px;
 }
@@ -886,14 +997,14 @@ ul.p-text li {
 }
 
 
-.adl-an {
-    margin-top:50px;
-
+.adl2-bg span{
+    font-size:1.125rem;
+    font-weight:600;
+    border-bottom: 1px solid #9F6327;
 }
 
-.accent {
-    font-size:18px;
-    margin-top:50px;
+.adl-an-right {
+    margin-top:65px;
 }
 
 
@@ -914,7 +1025,6 @@ ul.p-text li {
 
 .cafe2 p {
     font-size:0.835rem;
-    margin-bottom:10px;
 }
 
 .cafe2 h3 {
