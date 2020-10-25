@@ -198,7 +198,7 @@ body {
 .works-heading {
     font-size:2.8rem;
     color:#867e52;
-    letter-spacing: 10px;
+    letter-spacing: 8px;
     font-style: italic;
     background:url(t-bg.png) no-repeat left top;
     padding:15px;
@@ -424,7 +424,7 @@ body {
 .works h2 {
     font-size:2.5rem;
     color:#867e52;
-    letter-spacing: 10px;
+    letter-spacing:8px;
     font-style: italic;
     background:url(t-bg.png) no-repeat left top;
     padding:15px;
@@ -841,7 +841,7 @@ ul.p-text li {
   margin:0 auto;
   border-radius: 30px;
   padding:4%;
-  background-image: url(inner-child.png);
+  background-image: url(inner-child.png)no-repeat center top;
 }
    
 
@@ -1055,9 +1055,9 @@ ul.p-text li {
   }
 
   .grid {
-    gap:1%;
-    margin:80px auto;
-    width:60%;
+   gap: 1.5%;
+    margin: 30px auto 120px;
+  width:60%;
 }
 
 
@@ -1127,12 +1127,6 @@ ul.p-text li {
     margin-top:30px;
 }
 
-.a-left p {
-    font-size:1rem;
-    line-height: 2.0;
-    border-top:1px solid #5C5C5C;
-    padding-top:20px;
-}
 #conflict div {
     width:80%;
 }
@@ -1194,7 +1188,7 @@ td {
      /*works01*/
     html {
       width:100%;
-      font-size:0.75rem;
+      font-size:0.625rem;
   }
 
 
@@ -1209,15 +1203,16 @@ td {
 
     .i-text h2 {
         margin-bottom:20px;
+      font-size:1.75rem
     }
 
     #port01 .d-inner,#port02 .d-inner,#share .d-inner,.a-graph,.consept-3
-    ,#play .d-inner{
+    ,#play .d-inner,.friend{
         flex-direction: column;
         align-items: center;
     }
 
-    .l-left,.l-right,.b1 {
+    .l-left,.l-right,.b1,.friend p {
         width:100%;
     }
 
@@ -1234,7 +1229,7 @@ td {
     }
 
     .f-nav {
-        line-height: 100px;
+        line-height: 150px;
       }
       
       .f-item {
@@ -1244,8 +1239,8 @@ td {
       }
       
       .icon h1 {
-        margin-top: 25px;
-        padding-top: 8px;
+        margin-top: 50px;
+        padding-top: 10px;
         font-size: 0.835rem;
         letter-spacing: 0.6rem;
       }
@@ -1266,7 +1261,12 @@ td {
      .an-left,.an-right,.a-left {
          margin:0;
      }
-
+    /*works03*/
+  
+    #share {
+         background: url(portphoto/colorbg.png);     
+     }
+    
      #user .n-inner {
          margin:0 10%;
      }
