@@ -463,8 +463,8 @@ body {
     }
 
   .grid {
-      gap:1%;
-      margin:80px auto;
+      gap: 1.5%;
+      margin: 30px auto 120px;
       width:60%;
   } 
   
@@ -524,7 +524,6 @@ body {
 }
 
 .grid {
-  margin:70px auto;
   width:85%;
 }
 
