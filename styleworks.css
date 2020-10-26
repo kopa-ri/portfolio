@@ -9,7 +9,6 @@ body {
     width: 100%;
     height:100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
-    background:url(portphoto/bggound.png) right bottom;
     margin:0;
     font-weight:400;
     color:#6F5C47;
@@ -858,7 +857,7 @@ ul.p-text li {
   margin:0 auto;
   border-radius: 30px;
   padding:4%;
-  background-image: url(inner-child.png)no-repeat center top;
+  background: url(inner-child.png)no-repeat center top;
 }
    
 
@@ -1281,7 +1280,7 @@ td {
     /*works03*/
   
     #share {
-         background: url(portphoto/colorbg.png);     
+         background: url(colorbg.png);     
      }
     
      #user .n-inner {
