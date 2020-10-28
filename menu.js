@@ -1,7 +1,7 @@
 
 (function($) {
     var $nav   = $('#navArea');
-    var $btn   = $('.toggle_btn');
+    var $btn   = $('.toggle_btn,.nav_btn');
     var $mask  = $('#mask');
     var open   = 'open'; // class
     // menu open close
