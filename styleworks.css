@@ -1064,10 +1064,7 @@ ul.p-text li {
   /*レスポンシブ*/
 
 @media screen and (max-width: 896px) {
-  html {
-      font-size:0.875rem;
-  }
-
+ 
   #port01 .c-right img{
     width:100%;
   }
@@ -1416,7 +1413,7 @@ td {
    /*works01*/
     html {
       width:100%;
-      font-size:0.625rem;
+      font-size:0.875rem;
   }
 
 
@@ -1474,11 +1471,14 @@ td {
       }
       
       /*works02*/
-
+      
       .left a {
           margin-left:5%;
       }
-
+  
+      .shift {
+      margin:0;
+  }
       .c-left {
           padding:0;
       }
