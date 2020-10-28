@@ -1228,6 +1228,7 @@ td {
       transition: .5s;
       z-index: 3;
     }
+  
     .open nav {
       left: 0;
     }
@@ -1250,6 +1251,7 @@ td {
       color: #645C51;
       font-style: italic;
       padding: 1em;
+      letter-spacing: 3px;
       transition-duration: 0.2s;
       font-size:1.125rem;
     }
@@ -1345,62 +1347,50 @@ td {
     /*============
     .toggle_btn
     =============*/
-    .toggle_btn {
-      display: block;
-      position: fixed;
-      top: 10%;
-      left: 4%;
-      width: 60px;
-      height: 30px;
-      transform: translate(0, 0);
-      transition: all .5s;
-      cursor: pointer;
-      z-index: 3;
-    }
-    .open .toggle_btn {
-      left: 280px;
-    }
-    .toggle_btn span {
-      display: block;
-      position: absolute;
-      left: 0;
-      width: 30px;
-      height: 2px;
-      background-color: #666;
-      transition: all .5s;
-    }
-    .toggle_btn span:nth-child(1) {
-      top: 5px;
-      width: 60px;
-      animation: equalizer01 7000ms infinite;
-    }
-    .toggle_btn span:nth-child(2) {
-      top: 15px;
-      width: 30px;
-      animation: equalizer02 5000ms infinite;
-      animation-delay: 0.33s;
-    }
-    .toggle_btn span:nth-child(3) {
-      top: 25px;
-      width: 20px;
-      animation: equalizer02 5000ms infinite;
-    }
-    .open .toggle_btn span {
-      background-color: #fff;
-      width: 30px;
-    }
-    .open .toggle_btn span:nth-child(1) {
-      transform: translate(0, 10px) rotate(-45deg);
-      animation: unset;
-    }
-    .open .toggle_btn span:nth-child(2) {
-      opacity: 0;
-      animation: unset;
-    }
-    .open .toggle_btn span:nth-child(3) {
-      transform: translate(0, -10px) rotate(45deg);
-      animation: unset;
-    }
+     .toggle_btn {
+        display: block;
+        position: fixed;
+        top: 30px;
+        right: 30px;
+        width: 30px;
+        height: 30px;
+        transition: all .5s;
+        cursor: pointer;
+        z-index: 3;
+      }
+      .toggle_btn span {
+        display: block;
+        position: absolute;
+        left: 0;
+        width: 30px;
+        height: 2px;
+        background-color: #6F5C47;
+        border-radius: 4px;
+        transition: all .5s;
+      }
+      .toggle_btn span:nth-child(1) {
+        top: 4px;
+      }
+      .toggle_btn span:nth-child(2) {
+        top: 14px;
+      }
+      .toggle_btn span:nth-child(3) {
+        bottom: 4px;
+      }
+      .open .toggle_btn span {
+        background-color: #fff;
+      }
+      .open .toggle_btn span:nth-child(1) {
+        -webkit-transform: translateY(10px) rotate(-315deg);
+        transform: translateY(10px) rotate(-315deg);
+      }
+      .open .toggle_btn span:nth-child(2) {
+        opacity: 0;
+      }
+      .open .toggle_btn span:nth-child(3) {
+        -webkit-transform: translateY(-10px) rotate(315deg);
+        transform: translateY(-10px) rotate(315deg);
+      }
     
     
     /*============
