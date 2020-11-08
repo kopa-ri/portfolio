@@ -217,13 +217,13 @@ body {
 }
 
 .left a {
-    margin:5% 0 0 75%;
-    display:inline-block;
-    color:#9F6327;
-    font-size:1.375rem;
+    margin-left:65%;
+    display: inline-block;
+    color: #9F6327;
+    font-size: 1.375rem;
     position: relative;
-    background:url(viewall.png) no-repeat;
-    padding:3%;
+    background: url(viewall.png) no-repeat 3% 50px/90%;
+    padding: 5% 10% 5% 5%;
 }
 
   .left a:hover{
