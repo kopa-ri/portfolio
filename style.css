@@ -418,8 +418,10 @@ p {
 }
 
 .contact {
-  background:url(contact.png) no-repeat;
-
+  background:url(contact.png) no-repeat 180%;
+  padding-right:30px;
+  
+}
 .icon {
     width:15%;
     margin-right:10%;
