@@ -85,11 +85,11 @@ body {
     }
 
     .w-title {
-        font-size: 1.2rem;
-        color:#B18E7B;
-        font-weight:600;
+        font-size: 1.5rem;
+        color: #813E1A;
+        font-weight: 600;
         letter-spacing: 3px;
-        margin-bottom:10px;
+        margin-bottom: 10px;
     }
 
 .line {
@@ -201,7 +201,7 @@ body {
 
 
 .works-heading {
-    font-size:2.8rem;
+    font-size:3rem;
     color:#867e52;
     letter-spacing: 8px;
     font-style: italic;
@@ -219,25 +219,15 @@ body {
 .left a {
     margin:5% 0 0 75%;
     display:inline-block;
-    color:#6F5C47;
+    color:#9F6327;
     font-size:1.375rem;
     position: relative;
+    background:url(viewall.png) no-repeat;
+    padding:3%;
 }
 
-.left a::after {
-    position: absolute;
-    content: '';
-    bottom: 0;
-    left: 0;
-    width: 0;
-    height: 1px;
-    background: #d3bd60;
-    transition: all 0.3s ease 0s;
-  }
-  
-
-  .left a:hover::after {
-    width: 100%;
+  .left a:hover{
+   opacity:.7;
   }
 
 
@@ -443,7 +433,7 @@ body {
 
 
 .works h2 {
-    font-size:2.5rem;
+    font-size:3rem;
     color:#867e52;
     letter-spacing:8px;
     font-style: italic;
@@ -513,6 +503,11 @@ footer {
   color:#e3ddd3;
   font-size:1.125rem;
   margin-right:50px;
+}
+
+.contact {
+    background: url(contact.png) no-repeat 100%/contain;
+    padding-right: 30px;
 }
 
 .f-item:hover,.icon:hover {
