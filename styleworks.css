@@ -71,7 +71,7 @@ body {
     }
 
     h3 {
-         font-size: 1.125rem;
+         font-size: 1.25rem;
         font-weight:600;
         letter-spacing: 2px;
         margin-bottom:10px;
@@ -85,11 +85,12 @@ body {
     }
 
     .w-title {
-        font-size: 1.5rem;
-        color:#813E1A;
+        font-size: 2.2rem;
+        color:#ab5d45;
         font-weight: 600;
         letter-spacing: 3px;
         margin-bottom: 10px;
+        
     }
 
 .line {
@@ -546,14 +547,53 @@ footer {
     background-color: rgba(113, 142, 91, 0.3);
     background-image: url(画像\ 31.png);
 }
+.consept-01 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom:10%;
+    
+}
 
+
+.consept-02 {
+    text-align: center;
+}
+.c-text {
+    width:50%;
+
+}
+
+.c-text p {
+    line-height: 2.5;
+}
+.con-title {
+    font-size:2.5rem;
+    font-weight:600;
+    color:#ab5d45;
+    margin-bottom:20px
+
+}
+
+.consept-02 h3 {
+    font-size:1.25rem;
+   
+}
+.c-image {
+    width:35%;
+
+}
+.c-image img {
+    object-fit: cover;
+    width:70%;
+
+}
 .c-left {
     width:60%;
     padding:0 5%;
 }
 
 .shift {
-    margin: 12% 0 12% 15%;
+     margin: 2% 0 0% 20%;
 }
 
 .c-right {
@@ -643,6 +683,9 @@ display: inline-block;
     padding-top:6%;
 }
 　
+.i-list li {
+    margin-bottom:40px;
+}
 
 /*works03*/
 
