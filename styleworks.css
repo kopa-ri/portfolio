@@ -1478,7 +1478,7 @@ td {
     }
 
     #port01 .d-inner,#port02 .d-inner,#share .d-inner,.a-graph,.consept-3
-    ,#play .d-inner,.friend{
+    ,#play .d-inner,.friend,.consept-01{
         flex-direction: column;
         align-items: center;
     }
@@ -1526,11 +1526,9 @@ td {
     margin:5% 0;
     }
   
-      .c-left {
-          padding:0;
-      }
+      
 
-      .c-right, .a-right,.a-left{
+      .c-image, .a-right,.a-left{
         width: 90%;
 }
      .an-left,.an-right,.a-left {
