@@ -1539,9 +1539,14 @@ td {
       .a-right,.a-left,{
         width: 90%;
 }
+  
      .an-left,.an-right,.a-left {
          margin:0;
      }
+  
+  .c-text {
+text-align:center;
+  }
     /*works03*/
   
     #share {
