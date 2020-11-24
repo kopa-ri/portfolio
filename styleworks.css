@@ -1483,7 +1483,7 @@ td {
         align-items: center;
     }
 
-    .l-left,.l-right,.b1,.friend p {
+    .l-left,.l-right,.b1,.friend p,.c-text{
         width:100%;
     }
 
@@ -1528,7 +1528,7 @@ td {
   
       
 
-      .c-image,.c-right,.a-right,.a-left{
+      .c-image,.c-right,.a-right,.a-left,{
         width: 90%;
 }
      .an-left,.an-right,.a-left {
