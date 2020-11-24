@@ -1526,9 +1526,12 @@ td {
     margin:5% 0;
     }
   
-      
+      c-image,.c-right, {
+      width:90%;
+      margin:0 auto;
+        
 
-      .c-image,.c-right,.a-right,.a-left,{
+      .a-right,.a-left,{
         width: 90%;
 }
      .an-left,.an-right,.a-left {
