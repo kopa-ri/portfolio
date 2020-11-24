@@ -313,7 +313,7 @@ p {
     width:70%;
     height:auto;
     margin-left:30%;
-    line-height: 1.6;
+    line-height: 2.2;
     background:rgba(211, 189, 96, 0.5)
     
 }
@@ -346,14 +346,13 @@ p {
 }
 
 .vision-c span {
-  font-size:1rem;
+  font-size:1.125rem;
   font-weight:400;
 
 }
 
 .far {
   margin-right:10px;
-  color:#FFFADD;
 }
 
 /*works*/
