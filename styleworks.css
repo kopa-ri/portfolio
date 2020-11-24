@@ -629,9 +629,6 @@ footer {
     display: flex;
 }
 
-.an-inner p {
-    font-size:0.875rem;
-}
 
 .an-left {
      width:50%;
